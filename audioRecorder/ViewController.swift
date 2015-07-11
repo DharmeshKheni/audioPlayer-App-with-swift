@@ -40,7 +40,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
 
     @IBAction func stopTapped(sender: AnyObject) {
         
-        if let player = audioPlayer{
+        if let player = audioPlayer {
             player.stop()
         }
     }
